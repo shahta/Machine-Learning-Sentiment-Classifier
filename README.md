@@ -1,2 +1,5 @@
-# Machine-Learning-Sentiment-Classifier
-A machine learning project to determine whether an Amazon consumer book review is positive or negative.
+# Machine Learning Sentiment Classifier
+This project gave me a solid foundation and intorduction to machine learning using the SKLearn library in Python. This project has made me realize that this is a field that I want to pursue in the future. 
+The purpose of this project was to use machine learning to determine whether an Amazon book review was positive or negative. For this project, I found a JSON dataset of 10,000 reviews from Amazon customers who purchased books. I had to use natural language processing to convert the words in the reviews to bag of words vector so that the computer could parse it. 
+Next, I split the data for training and testing. A decision tree algorithim was fed the training data with the review text and the outcome (either postive or negative based on the star review the consumer gave).
+Finally, I evaluated the model using the testing data and saw that the accuracy was about 10%. I improved this by balancing the number of postive to negative reviews in both the training and testing data since there was way too many postive reviews biasing the algorithm. I have learned a lot from this project and I am searching for my next challenge to increase my knowledge!
